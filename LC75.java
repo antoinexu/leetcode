@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class LC75 {
 
     public void sortColors(int[] nums) {
-
+        // three pointer
         int left = 0;
         int right = nums.length - 1;
         int target = 0;
